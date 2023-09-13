@@ -1,0 +1,11 @@
+profiles/
+acc_*
+node_modules/
+test/
+build/
+relay_logs/
+
+output.log
+*_packetReadError.txt
+relay*.log
+config.json
