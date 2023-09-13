@@ -2,6 +2,10 @@
 
 A program to allow you to get free afk alts by using bedrock.
 
+## requirements
+
+- A Microsoft account. It **does not need to own bedrock**.
+
 ## cli arguments
 
 - `--verbose` (`-v`), boolean. If set, will only log needed information (config errors, logged in, connecting)
