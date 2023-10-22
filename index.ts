@@ -14,14 +14,6 @@ import * as fs from 'node:fs'
 
 const originalStdoutWrite = process.stdout.write;
 
-function fsLog(txt: any) {
-    fs.appendFile('output.log', txt, function (err) {
-        if (err) throw err;
-    });
-}
-
-
-
 //@ts-ignore
 process.stdout.write = function (data) {
     // Intercept the data being written to stdout
