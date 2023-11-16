@@ -16,7 +16,7 @@ A program to allow you to get free afk alts by using bedrock.
 
 1. See [building](#building)
 2. Run once (just double click).
-3. Specifiy your gamertag in `config.json`.
+3. Specify your gamertag in `config.json`.
 4. You can now run it and follow instructions on screen, if you are looking for something a bit more automated, you can run it with `-c` to automatically fix chat.
 
 ## building
