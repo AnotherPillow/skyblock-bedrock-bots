@@ -1,6 +1,6 @@
 # skyblock bedrock bots
 
-A program to allow you to get free afk alts by using bedrock.
+A program that lets you connect to skyblock.net through bedrock on an account that doesn't own bedrock. This is because bedrock doesn't require payment.
 
 ## requirements
 
