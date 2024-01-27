@@ -10,7 +10,7 @@
     "scripts": {
         "dev": "ts-node index.ts",
         "js": "tsc --allowSyntheticDefaultImports",
-        "compile": "pkg -t node18-macos-x64,node18-linux-x64,node18-win-x64 --output build\\skyblockbedrockbot .\\build\\index.js",
+        "compile": "pkg -t node18-macos-x64,node18-linux-x64,node18-win-x64 --output build/skyblockbedrockbot ./build/index.js",
         "build": "npm run js && npm run compile"
     },
     "devDependencies": {
