@@ -22,5 +22,6 @@ A program that lets you connect to skyblock.net through bedrock on an account th
 ## building
 
 1. Install [node.js](https://nodejs.dev/en/download/) - v18 was used in the development of this project.
-2. Install dependencies using `npm install`
-3. Compile using `npm run build`, development can be done via `npm run dev`.
+2. Clone with `git clone https://github.com/anotherpillow/skyblock-bedrock-bots.git --recurse-submodules`
+3. Install dependencies using `npm install`
+4. Compile using `npm run build`, development can be done via `npm run dev`.
