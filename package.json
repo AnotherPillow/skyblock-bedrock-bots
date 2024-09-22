@@ -11,7 +11,8 @@
         "dev": "ts-node index.ts",
         "js": "tsc --allowSyntheticDefaultImports",
         "compile": "pkg -t node18-macos-x64,node18-linux-x64,node18-win-x64 --output build/skyblockbedrockbot ./build/index.js",
-        "build": "npm run js && npm run compile"
+        "build": "npm run js && npm run compile",
+        "update-to-new-version": "npm upgrade bedrock-protocol && npm upgrade minecraft-data"
     },
     "devDependencies": {
         "@types/node": "^20.5.9",
