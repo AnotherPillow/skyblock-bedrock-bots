@@ -13,7 +13,7 @@ export default class Bot {
     constructor() {
         logger.info('Attempting to create client. If you receive a 401 Unauthorized doing this, log into the launcher and try again.')
         this.client = protocol.createClient({
-            host: "server.skyblock.com",
+            host: "bedrock.skyblock.net",
             port: 19132,
             profilesFolder: `./acc_${this.config.gamertag}`,
             username: '',
